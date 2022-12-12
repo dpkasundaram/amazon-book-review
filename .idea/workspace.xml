@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="amazon-book-review:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3327f9f-0fa5-45ae-8399-67dff3ea8bec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/northeastern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/northeastern/AmazonBookReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +50,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -66,7 +68,7 @@
       <recent name="author" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AVG_Author">
+  <component name="RunManager" selected="Application.SortAVGPub">
     <configuration name="AVG_Author" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="author.AmazonBRAuthor" />
       <module name="amazon-book-review" />
@@ -91,6 +93,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortAVG" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sort.ABRSorter" />
+      <module name="amazon-book-review" />
+      <option name="PROGRAM_PARAMETERS" value="output_author/part-r-00000 ./output_author_sort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortAVGCat" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sort.ABRSorter" />
+      <module name="amazon-book-review" />
+      <option name="PROGRAM_PARAMETERS" value="output_genres/part-r-00000 ./output_genres_sort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortAVGPub" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sort.ABRSorter" />
+      <module name="amazon-book-review" />
+      <option name="PROGRAM_PARAMETERS" value="output_pub/part-r-00000 ./output_pub_sort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,6 +131,9 @@
     <list>
       <item itemvalue="Application.AVG_Genres" />
       <item itemvalue="Application.AVG_Pub" />
+      <item itemvalue="Application.SortAVG" />
+      <item itemvalue="Application.SortAVGPub" />
+      <item itemvalue="Application.SortAVGCat" />
       <item itemvalue="Application.AVG_Author" />
     </list>
   </component>
@@ -119,7 +148,7 @@
       <workItem from="1669259649990" duration="477000" />
       <workItem from="1670292587578" duration="141000" />
       <workItem from="1670292790319" duration="100000" />
-      <workItem from="1670292903177" duration="37445000" />
+      <workItem from="1670292903177" duration="42676000" />
     </task>
     <servers />
   </component>
